@@ -1,0 +1,15 @@
+\multicolumn{7}{l}{\emph{Held-out labels}}\\
+Holdout (80/20) & 0.0188 & 0.0595 & 0.0195 & 0.0326 & 0.0136 & 1.00\\
+2-fold CV & 0.0089 & 0.0451 & \best{0.0099} & 0.0213 & 0.0098 & 1.19\\
+5-fold CV & \best{0.0079} & 0.0395 & 0.0116 & \best{0.0196} & 0.0056 & 4.89\\
+\multicolumn{7}{l}{\emph{No held-out labels, one stage}}\\
+Min-$V_2$\prop{} & 0.0580 & 0.1073 & 0.0593 & 0.0748 & 0.0055 & 1.21\\
+Consensus criterion\prop{}$^\ast$, 2 halves & 0.0181 & \best{0.0344} & 0.0135 & 0.0220 & \best{0.0033} & 1.21\\
+\multicolumn{7}{l}{\emph{Two-stage (training labels only): screen by training fit, then min-$V_2$}}\\
+Keep interpolators (training error $\le1\%$) & 0.0314 & 0.0885 & 0.0171 & 0.0457 & 0.0074 & 1.21\\
+Keep legacy LMC score $\ge0.9$ & 0.0314 & 0.0902 & 0.0168 & 0.0461 & 0.0079 & 1.21\\
+Keep training error below the median & 0.0182 & 0.0698 & 0.0140 & 0.0340 & 0.0080 & 1.21\\
+Keep training error $\le\hat\rho+0.02$ & 0.0207 & 0.0951 & 0.0196 & 0.0451 & 0.0055 & 1.21\\
+Keep training error $\le\hat\rho+0.02$, then consensus\prop{}$^\ast$ & 0.0151 & \best{0.0344} & 0.0133 & 0.0209 & \best{0.0033} & 1.21\\
+\midrule
+\emph{Random choice} & \emph{0.0990} & \emph{0.1301} & \emph{0.0668} & \emph{0.0986} & \emph{0.0850} & \\

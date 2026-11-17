@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+figs/
+results/paper
+data/pmlb/
+data/pmlb_reg/
