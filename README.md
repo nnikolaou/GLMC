@@ -2,7 +2,7 @@
 
 Code and supplementary material for
 
-> Nikolaos Nikolaou. *What Interpolators Store and What They Express: An Information-Theoretic Framework for Benign Overfitting and Label-Free Model Selection.* 2026. ([arXiv link to be added.](https://arxiv.org/abs/2611.23630))
+> Nikolaos Nikolaou. *What Interpolators Store and What They Express: An Information-Theoretic Framework for Benign Overfitting and Label-Free Model Selection.* 2026. (https://arxiv.org/abs/2611.23630)
 
 The supplementary material (appendices A–K of the paper, with their reference list) is in [`supplementary/glmc_supplementary_material.pdf`](supplementary/glmc_supplementary_material.pdf). Section, theorem, table and figure numbers below refer to the paper; numbers with the prefix S refer to the appendices.
 
